@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="map men map men map men map men">
+  <title>The MRT Map</title>
+  <link href="./styles/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik|Material+Icons">
+
+
+</head>
+
+<body>
+  map men map men map men map men
+
+  <h2>Contributers</h2>
+  <div id="contributers"></div>
+  <script src="./scripts/contributers.js"></script>
+  <script>
+    window.onload = init;
+
+    function init() {
+      loadContributers();
+    }
+    function loadContributers() {
+      var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+      console.log(`Width: ${width}`)
+      console.log(width / contributers.length)
+      for (const contributer of shuffle(contributers)) {
+        let toAdd = `<figure class="contributer" style="width:256px"><img src="https://crafatar.com/avatars/${contributer.uuid}"><figcaption><strong>${contributer.name}</strong><br>${contributer.role}</figcaption></figure>`
+        document.getElementById('contributers').innerHTML += toAdd;
+      }
+    }
+  </script>
+</body>
+
+</html>
