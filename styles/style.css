@@ -2,8 +2,46 @@ html, body {
   margin: 0;
   font-size: 16px;
   font-family: sans-serif; /* We can change this to whatever font we decide to go with */
+  text-align: center
 }
 
+:root {
+  --theme: #ff6961
+}
+
+/* style content lead */
+.content-lead {
+  padding: 50px;
+  margin: 0px;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  position: relative;
+  color: white;
+  min-height: 20vw;
+  overflow: hidden;
+}
+
+/* style lead background */
+.content-lead img {
+  height: 1px;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  filter: brightness(0.5);
+}
+
+/* style main content */
+.content-main {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* style contributer group */
 #contributers {
   display: flex;
   flex-direction: row;
@@ -12,6 +50,7 @@ html, body {
   font-family: sans-serif;
 }
 
+/* style each contributer*/
 figure.contributer {
   margin: 20px;
   text-align: center;
@@ -19,10 +58,7 @@ figure.contributer {
   max-width: 200px;
 }
 
+/* style contributer image*/
 .contributer img {
   margin: 10px;
-}
-
-body {
-  text-align: center;
 }
