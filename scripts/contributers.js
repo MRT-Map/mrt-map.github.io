@@ -12,7 +12,7 @@ const contributers = [
   {
     name: 'Scarycrumb45',
     uuid: '099c486c0fbe4e36bd7e49b77ab74924',
-    role: 'MRT Rapidroute / Development'
+    role: 'Design / Development'
   },
   {
     name: 'CodyHM',
