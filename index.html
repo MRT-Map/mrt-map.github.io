@@ -31,7 +31,7 @@
       console.log(`Width: ${width}`)
       console.log(width / contributers.length)
       for (const contributer of shuffle(contributers)) {
-        let toAdd = `<figure class="contributer" style="width:256px"><img src="https://crafatar.com/avatars/${contributer.uuid}"><figcaption><strong>${contributer.name}</strong><br>${contributer.role}</figcaption></figure>`
+        let toAdd = `<figure class="contributer"><img src="https://crafatar.com/avatars/${contributer.uuid}"><figcaption><strong>${contributer.name}</strong><br>${contributer.role}</figcaption></figure>`
         document.getElementById('contributers').innerHTML += toAdd;
       }
     }
