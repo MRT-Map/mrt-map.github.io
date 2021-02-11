@@ -31,21 +31,21 @@
     <p>MRT Mapping Services is an organization dedicated to helping you
     navigate the Minecart Rapid Transit Server quickly and with ease.</p>
     <hr>
-    <h2>Contributers</h2>
-    <div id="contributers"></div>
+    <h2>Contributors</h2>
+    <div id="contributors"></div>
   </div>
 
-  <script src="./scripts/contributers.js"></script>
+  <script src="./scripts/contributors.js"></script>
   <script>
     window.onload = init;
 
     function init() {
-      loadContributers();
+      loadContributors();
     }
-    function loadContributers() {
-      for (const contributer of shuffle(contributers)) {
-        let toAdd = `<figure class="contributer"><img src="https://crafatar.com/avatars/${contributer.uuid}"><figcaption><strong>${contributer.name}</strong><br>${contributer.role}</figcaption></figure>`
-        document.getElementById('contributers').innerHTML += toAdd;
+    function loadContributors() {
+      for (const contributor of shuffle(contributors)) {
+        let toAdd = `<figure class="contributor"><img src="https://crafatar.com/avatars/${contributor.uuid}"><figcaption><strong>${contributor.name}</strong><br>${contributor.role}</figcaption></figure>`
+        document.getElementById('contributors').innerHTML += toAdd;
       }
     }
   </script>

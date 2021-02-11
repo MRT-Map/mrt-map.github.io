@@ -52,8 +52,8 @@ html, body {
   border-radius: 10px;
 }
 
-/* style contributer group */
-#contributers {
+/* style contributor group */
+#contributors {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -61,15 +61,15 @@ html, body {
   font-family: sans-serif;
 }
 
-/* style each contributer*/
-figure.contributer {
+/* style each contributor*/
+figure.contributor {
   margin: 20px;
   text-align: center;
   padding: 0;
   max-width: 200px;
 }
 
-/* style contributer image*/
-.contributer img {
+/* style contributor image*/
+.contributor img {
   margin: 10px;
 }
