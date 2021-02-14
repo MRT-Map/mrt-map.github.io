@@ -33,6 +33,11 @@ const contributors = [
     name: 'CaptainObi',
     uuid: '941f78f810024255912b397182ec62aa',
     role: 'Development'
+  },
+  {
+    name: 'AP_Red',
+    uuid: '6f4821b019964f3ba776ce0cdc8e7276',
+    role: 'Development'
   }
 ]
 
