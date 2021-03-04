@@ -58,7 +58,7 @@ html, body {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
-.content-main a {
+.links a {
   display: block;
   padding: 20px;
   color: black;
@@ -66,10 +66,11 @@ html, body {
   text-decoration: none;
   font-weight: bold;
   margin: 20px 10px;
+  background-color: white;
   transition: background-color 0.2s;
 }
 
-.content-main a:hover {
+.links a:hover {
   background-color: skyblue;
   border-color: skyblue;
 }
