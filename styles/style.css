@@ -52,6 +52,28 @@ html, body {
   border-radius: 10px;
 }
 
+.links {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.content-main a {
+  display: block;
+  padding: 20px;
+  color: black;
+  border: 2px solid gray;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 20px 10px;
+  transition: background-color 0.2s;
+}
+
+.content-main a:hover {
+  background-color: skyblue;
+  border-color: skyblue;
+}
+
 /* style contributor group */
 #contributors {
   display: flex;
