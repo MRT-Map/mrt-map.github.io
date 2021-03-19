@@ -1,3 +1,4 @@
+//List of contributers to display on the main page
 const contributors = [
   {
     name: 'megascatterbomb',
