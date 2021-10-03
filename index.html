@@ -14,12 +14,13 @@
   type="image/png"
   href="./media/favicon.png">
 
-
+  <script src="https://unpkg.com/yall-js/dist/yall.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", yall);</script>
 </head>
 
 <body>
   <div class="content-lead">
-    <img src="https://www.minecartrapidtransit.net/wp-content/uploads/2020/08/12_-_Spotting-the-Queen-of-the-Skies_-MikeRoma-Arbatskaya-Moscow-1366x600.png" alt="Queen of the skies"/>
+    <img class="lazy" src="media/banner-thumbnail.png" data-src="https://www.minecartrapidtransit.net/wp-content/uploads/2020/08/12_-_Spotting-the-Queen-of-the-Skies_-MikeRoma-Arbatskaya-Moscow-1366x600.png" alt="Queen of the skies"/>
     <h1>MRT Mapping Services</h1>
     <div>
       <i>map men map men map men map men</i>
@@ -51,7 +52,7 @@
     }
     function loadContributors() {
       for (const contributor of shuffle(contributors)) {
-        let toAdd = `<figure class="contributor"><img src="https://crafatar.com/avatars/${contributor.uuid}"><figcaption><strong>${contributor.name}</strong><br>${contributor.role}</figcaption></figure>`
+        let toAdd = `<figure class="contributor"><img src="https://crafatar.com/avatars/${contributor.uuid}?overlay"><figcaption><strong>${contributor.name}</strong><br>${contributor.role}</figcaption></figure>`
         document.getElementById('contributors').innerHTML += toAdd;
       }
     }
