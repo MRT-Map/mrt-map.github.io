@@ -6,7 +6,7 @@ const contributors = [
     role: 'QA'
   },
   {
-    name: 'Airplaneguy9',
+    name: 'AirplaneNiner',
     uuid: '5c7858c110d141558624cae2c26571b8',
     role: 'Project Organiser'
   },
