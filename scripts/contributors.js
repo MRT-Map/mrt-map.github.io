@@ -16,7 +16,7 @@ const contributors = [
     role: 'Design / Development'
   },
   {
-    name: 'i____7d',
+    name: '__7d',
     uuid: '7e96f1a3d9be4ca8a2aca67f49c6095e',
     role: 'Development'
   },
@@ -38,7 +38,7 @@ const contributors = [
   {
     name: 'RacCort',
     uuid: '30d3ed65bfb64bfe9ee29b54385550c2',
-    role: 'Graphic Designer'
+    role: 'Graphic Design'
   }
 ]
 
