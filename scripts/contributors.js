@@ -21,7 +21,7 @@ const contributors = [
     role: 'Development'
   },
   {
-    name: 'Dinty!',
+    name: 'Dinty1',
     uuid: '472715f5e298428c961f9b60dbe9dbad',
     role: 'Development'
   },
